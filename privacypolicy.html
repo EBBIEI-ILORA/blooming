@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Bloom Industries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #050508;
+            --bg-secondary: #0a0a0f;
+            --text-primary: #f5f5f7;
+            --text-secondary: #a1a1a6;
+            --accent: #e8a07a;
+            --accent-secondary: #d4788c;
+            --accent-tertiary: #c9a855;
+            --accent-quaternary: #4a9c8c;
+            --border: rgba(255,255,255,0.08);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Outfit', sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.6; }
+        
+        /* Navigation */
+        nav {
+            position: fixed; top: 0; width: 100%; padding: 1.5rem 4rem;
+            display: flex; justify-content: space-between; align-items: center;
+            z-index: 1000; background: rgba(5,5,8,0.8); backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+        }
+        .logo { font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); text-decoration: none; }
+        .nav-links { display: flex; gap: 3rem; }
+        .nav-link { color: var(--text-secondary); text-decoration: none; font-size: 0.95rem; transition: color 0.3s; }
+        .nav-link:hover { color: var(--text-primary); }
+        
+        /* Policy Styles */
+        .policy-hero {
+            padding: 10rem 4rem 4rem;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+        .policy-hero .section-title {
+            display: inline-block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+        .policy-hero h1 {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .policy-meta {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        .policy-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .policy-section {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .policy-section:last-child {
+            border-bottom: none;
+        }
+        .policy-section h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+        .policy-section h3 {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem;
+        }
+        .policy-section p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .policy-section ul, .policy-section ol {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .policy-section li { margin-bottom: 0.5rem; }
+        .policy-section strong { color: var(--text-primary); }
+        
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 4rem;
+            background: var(--bg-secondary);
+        }
+        .footer-bottom {
+            display: flex; justify-content: space-between; align-items: center;
+            padding-top: 2rem; border-top: 1px solid var(--border); margin-top: 2rem;
+        }
+        .footer-bottom p { color: var(--text-secondary); font-size: 0.85rem; }
+        .footer-bottom-links { display: flex; gap: 2rem; }
+        .footer-bottom-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; transition: color 0.3s; }
+        .footer-bottom-links a:hover { color: var(--text-primary); }
+        
+        @media (max-width: 768px) {
+            nav { padding: 1rem 1.5rem; }
+            .nav-links { display: none; }
+            .policy-hero { padding: 8rem 1.5rem 3rem; }
+            .policy-content { padding: 2rem 1.5rem; }
+            footer { padding: 2rem 1.5rem; }
+            .footer-bottom { flex-direction: column; gap: 1rem; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">Bloom Industries</a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html#solutions" class="nav-link">Solutions</a>
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <section class="policy-hero">
+        <span class="section-title">Legal</span>
+        <h1>Information Security Policy</h1>
+        <p class="policy-meta">Company Name: Bloom Industries Inc. | Effective Date: 11/11/2025 | Last Updated: 01/01/2026</p>
+    </section>
+    
+    <div class="policy-content">
+        <section class="policy-section">
+            <h2>1. Purpose</h2>
+            <p>The purpose of this Information Security Policy is to establish standards and responsibilities for protecting the confidentiality, integrity, and availability of company information systems, customer data, and business assets.</p>
+            <p>This policy applies to all employees, contractors, systems, applications, and third-party services used by the company.</p>
+        </section>
+        
+        <section class="policy-section">
+            <h2>2. Scope</h2>
+            <p>This policy covers:</p>
+            <ul>
+                <li>Customer and user data</li>
+                <li>Company intellectual property</li>
+                <li>Application infrastructure</li>
+                <li>Third-party services and integrations</li>
+                <li>Internal systems and access credentials</li>
+            </ul>
+            <p>This policy applies to all production, staging, and development environments.</p>
+        </section>
+        
+        <section class="policy-section">
+            <h2>3. Roles & Responsibilities</h2>
+            <h3>Information Security Officer (ISO)</h3>
+            <p>The Information Security Officer is responsible for:</p>
+            <ul>
+                <li>Overseeing the company's information security program</li>
+                <li>Ensuring appropriate safeguards are implemented</li>
+                <li>Reviewing vendor security practices</li>
+                <li>Managing incident response and reporting</li>
+                <li>Maintaining and updating security policies</li>
+            </ul>
+            <h3>Employees & Contractors</h3>
+            <p>All personnel are responsible for:</p>
+            <ul>
+                <li>Protecting company and customer data</li>
+                <li>Following access control and authentication requirements</li>
+                <li>Reporting suspected security incidents immediately</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>4. Data Classification</h2>
+            <p>Company data is classified into the following categories:</p>
+            <ul>
+                <li><strong>Confidential:</strong> Customer data, authentication credentials, financial data, API keys</li>
+                <li><strong>Internal:</strong> Internal documentation, operational data</li>
+                <li><strong>Public:</strong> Marketing materials and publicly released information</li>
+            </ul>
+            <p>Confidential data must be protected with appropriate technical and organizational controls.</p>
+        </section>
+        
+        <section class="policy-section">
+            <h2>5. Access Control</h2>
+            <ul>
+                <li>Access to systems and data is granted on a <strong>least-privilege</strong> basis</li>
+                <li>Role-based access control (RBAC) is enforced where supported</li>
+                <li>Administrative access is restricted to authorized personnel only</li>
+                <li>Multi-factor authentication (MFA) is required for privileged access where available</li>
+                <li>Access is reviewed periodically and revoked upon role change or termination</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>6. Authentication & Credential Management</h2>
+            <ul>
+                <li>Strong passwords are required for all systems</li>
+                <li>Passwords and secrets are never stored in plaintext</li>
+                <li>API keys and service credentials are stored securely and rotated periodically</li>
+                <li>Production credentials are restricted from client-side exposure</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>7. Data Protection & Encryption</h2>
+            <ul>
+                <li>Data is encrypted <strong>in transit</strong> using TLS</li>
+                <li>Sensitive data is encrypted <strong>at rest</strong> where supported by infrastructure providers</li>
+                <li>Third-party platforms (e.g., Supabase, Stripe, Plaid) are relied upon for secure data storage and processing according to their published security standards</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>8. Application Security</h2>
+            <ul>
+                <li>Secure development practices are followed</li>
+                <li>Dependencies are kept reasonably up to date</li>
+                <li>Production systems are separated from development and testing environments</li>
+                <li>Changes to production systems follow controlled deployment processes</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>9. Third-Party & Vendor Security</h2>
+            <p>The company uses reputable third-party service providers for infrastructure and functionality, including but not limited to:</p>
+            <ul>
+                <li>Cloud hosting and databases</li>
+                <li>Payment processing</li>
+                <li>Banking integrations</li>
+                <li>AI services</li>
+            </ul>
+            <p>Vendors are selected based on security posture, industry reputation, and compliance commitments. Vendor access is limited to the minimum required.</p>
+        </section>
+        
+        <section class="policy-section">
+            <h2>10. AI & Data Processing</h2>
+            <ul>
+                <li>AI functionality is provided through trusted third-party providers</li>
+                <li>User inputs are processed solely for providing application functionality</li>
+                <li>The company does not sell user data</li>
+                <li>AI usage is disclosed to users and governed by the company's Privacy Policy</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>11. Logging & Monitoring</h2>
+            <ul>
+                <li>System activity is logged where supported</li>
+                <li>Errors and security-relevant events are monitored</li>
+                <li>Logs are protected from unauthorized access</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>12. Incident Response</h2>
+            <p>In the event of a suspected security incident:</p>
+            <ol>
+                <li>The issue is promptly investigated</li>
+                <li>Impacted systems may be isolated</li>
+                <li>Affected users or partners are notified when legally or contractually required</li>
+                <li>Remediation steps are taken to prevent recurrence</li>
+            </ol>
+            <p>All incidents are documented and reviewed.</p>
+        </section>
+        
+        <section class="policy-section">
+            <h2>13. Data Retention & Deletion</h2>
+            <ul>
+                <li>Data is retained only as long as necessary for business or legal purposes</li>
+                <li>Users may request account and data deletion</li>
+                <li>Account deletion requests are processed through internal workflows</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>14. Business Continuity & Availability</h2>
+            <ul>
+                <li>Cloud infrastructure is designed for reasonable availability</li>
+                <li>Backups are maintained where supported by service providers</li>
+                <li>Recovery procedures are documented and tested periodically</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>15. Policy Review & Updates</h2>
+            <p>This policy is reviewed at least annually or upon significant changes to systems, regulations, or business operations.</p>
+        </section>
+        
+        <section class="policy-section">
+            <h2>16. Compliance</h2>
+            <p>This policy supports compliance with:</p>
+            <ul>
+                <li>Applicable data protection and privacy laws</li>
+                <li>Platform requirements (Apple App Store, payment processors, banking partners)</li>
+                <li>Contractual security obligations</li>
+            </ul>
+        </section>
+        
+        <section class="policy-section">
+            <h2>Acknowledgment</h2>
+            <p>All personnel are expected to comply with this Information Security Policy. Violations may result in disciplinary action or termination of access.</p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>© 2025 Bloom Industries Inc. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="privacypolicy.html">Privacy Policy</a>
+                <a href="termsofservice.html">Terms of Service</a>
+                <a href="dataretention.html">Data Retention</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
